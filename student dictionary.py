@@ -1,0 +1,10 @@
+#sno,sname,gender,group,result
+st={'student-1':['1','Kem','male','mpcs','0+'],'student-2':['2','Bel','female','mpcs','0+'],'student-3':['3','Rish','male','mpcs','A+'],'student-4':['4','premi','female','mpcs','A']}
+print(st.keys())
+print(st)
+print(st['student-1'])
+print(st['student-2'])
+print(st['student-3'])
+print(st['student-4'])
+print(st['student-1'][2])
+print(st['student-2'][1])

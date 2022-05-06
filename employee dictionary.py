@@ -1,0 +1,10 @@
+#empno,empname,empdesig,doj,salary
+st={'emp-1':['1','Kem','3456','20-3-2000','90,000'],'emp-2':['2','Bel','9876','29-12-2000','80,000'],'emp-3':['3','Rish','2234','25-6-2005','70,000'],'emp-4':['4','premi','8765','14-7-2002','50,000']}
+print(st.keys())
+print(st)
+print(st['emp-1'])
+print(st['emp-2'])
+print(st['emp-3'])
+print(st['emp-4'])
+print(st['emp-1'][2])
+print(st['emp-2'][1])
